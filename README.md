@@ -13,7 +13,7 @@ The decoder has the following features,
   - WS2811 chip timing
 - **LED ports**
   - 12 channel output (4x WS2811 chips)
-  - LED voltage 5V
+  - Common LED voltage +5V
   - Drives common anode
   - 25 step PWM
 
