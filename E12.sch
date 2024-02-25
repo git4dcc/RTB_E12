@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "E12 module"
 Date "2023-11-11"
-Rev "0"
+Rev "1"
 Comp "Frank Schumacher"
 Comment1 "12 channel WS2811"
 Comment2 ""
