@@ -30,3 +30,6 @@ The decoder has the following features,
 <br>
 
 [Schematic](doc/E12_schematic.pdf) | [Layout](doc/E12_layout.pdf)
+
+# Firmware
+This module does **not** have any firmware code (uses native WS2811 chips).
