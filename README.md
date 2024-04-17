@@ -20,10 +20,10 @@ The decoder has the following features,
 [more](https://rtb4dcc.de/hardware/modules/e12/)
 
 # PCB
-<img src="https://rtb4dcc.de/wp-content/uploads/2024/02/E12_1-768x410.png" width=500>
+<img src="https://rtb4dcc.de/wp-content/uploads/2024/02/E12_1.png" width=500>
 
 - 4-layer PCB, FR4, 1.0mm, 18x6mm
-- CPU: none
+- CPU: none (native WS2811 chips)
 - BUS: WS2811
 - LED: Pull
 <br>
