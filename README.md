@@ -43,7 +43,7 @@ The hardware does pull operation with 5V common.
 - 4-layer PCB, FR4, 0.8mm, 18x6mm
 - CPU: none (native WS2811 chips)
 - BUS: WS2811
-- LED: Pull
+- LED: pull /w common anode
 <br>
 
 **Top**
