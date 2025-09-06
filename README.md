@@ -24,11 +24,11 @@ This module implements a compact 12-channel WS2811 PCB designed to fit within a 
 
 <img src=supplemental/images/E12_main.jpg>
 
-The decoder has the following features,
+The module has the following features,
 - **Protocol**
   - WS2811 chip protocol
 - **LED ports**
-  - 12 channel output (4x WS2811 chips)
+  - fixed 16 channel /w 12 outputs (4x WS2811 chips, 3 ports used each)
   - Common LED voltage +5V
   - Drives common anode
   - 255 step PWM
