@@ -28,12 +28,9 @@ The module has the following features,
 - **Protocol**
   - WS2811 chip protocol
 - **LED ports**
-  - fixed 16 channel /w 12 outputs (4x WS2811 chips, 3 ports used each)
-  - Common LED voltage +5V
-  - Drives common anode
+  - fixed 12 channel (4x WS2811 chips)
+  - +5V common LED voltage (common anode)
   - 255 step PWM
-
-[more](https://rtb4dcc.de/hardware/modules/e12/)
 
 # Hardware
 The PCB layout uses SMD footprints with 0.5mm pitch and 0402 parts. Reflow soldering is mandatory.
@@ -63,4 +60,6 @@ The hardware does pull operation with 5V common.
 This module does **not** have any firmware code (uses native WS2811 chips).
 
 # Use Case
+The E12 module is housed within the signal's socket and links to the adapter, located beneath the layout, through a flexible flat cable (FFC).
+
 <img src="supplemental/images/E12_usecase.jpg" width=900> 
