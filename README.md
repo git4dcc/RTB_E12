@@ -35,19 +35,32 @@ The module has the following features,
 
 [more](https://rtb4dcc.de/hardware/modules/e12/)
 
-# PCB
-<img src="supplemental/images/E12_top_btm.jpg" width=600>
+# Hardware
+The PCB layout uses SMD footprints with 0.5mm pitch and 0402 parts. Reflow soldering is mandatory.
 
+The hardware does pull operation with 5V common.
+
+<img src=supplemental/images/E12_connect.jpg>
+
+## PCB
 - 4-layer PCB, FR4, 0.8mm, 18x6mm
 - CPU: none (native WS2811 chips)
 - BUS: WS2811
 - LED: Pull
 <br>
 
+**Top**
+
+<img src="supplemental/images/E12_top.jpg" width=400>
+
+**Bottom**
+
+<img src="supplemental/images/E12_btm.jpg" width=400>
+
 [Schematic](doc/E12_schematic.pdf) | [Layout](doc/E12_layout.pdf) | [Gerber](gerber)
 
-# Images
-<img src="supplemental/images/E12_usecase.jpg" width=900> 
-
-# Firmware
+## Firmware
 This module does **not** have any firmware code (uses native WS2811 chips).
+
+# Use Case
+<img src="supplemental/images/E12_usecase.jpg" width=900> 
