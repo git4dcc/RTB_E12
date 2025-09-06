@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "E12 module"
-Date "2023-11-11"
+Date "2025-09-06"
 Rev "1"
 Comp "Frank Schumacher"
 Comment1 "12 channel WS2811"
@@ -17,10 +17,12 @@ $Comp
 L Device:C C2
 U 1 1 6072CAD8
 P 4200 1850
-F 0 "C2" H 4315 1896 50  0001 L CNN
+F 0 "C2" H 4250 1950 50  0000 L CNN
 F 1 "100n" H 4250 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4238 1700 50  0001 C CNN
 F 3 "~" H 4200 1850 50  0001 C CNN
+F 4 "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 4200 1850 50  0001 C CNN "Description"
+F 5 "C14663" H 4200 1850 50  0001 C CNN "JLCPCB"
 	1    4200 1850
 	1    0    0    -1  
 $EndComp
@@ -28,10 +30,12 @@ $Comp
 L Device:C C3
 U 1 1 60730021
 P 4550 1850
-F 0 "C3" H 4665 1896 50  0001 L CNN
+F 0 "C3" H 4600 1950 50  0000 L CNN
 F 1 "100n" H 4600 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4588 1700 50  0001 C CNN
 F 3 "~" H 4550 1850 50  0001 C CNN
+F 4 "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 4550 1850 50  0001 C CNN "Description"
+F 5 "C14663" H 4550 1850 50  0001 C CNN "JLCPCB"
 	1    4550 1850
 	1    0    0    -1  
 $EndComp
@@ -63,39 +67,39 @@ F 3 "" H 4900 1700 50  0001 C CNN
 	1    4900 1700
 	1    0    0    -1  
 $EndComp
-Text Notes 1050 1200 0    79   ~ 0
+Text Notes 1050 1200 0    79   ~ 16
 WS2811
 $Comp
 L Device:R R1
 U 1 1 6550A02E
-P 7400 3200
-F 0 "R1" V 7193 3200 50  0001 C CNN
-F 1 "n.f." V 7400 3200 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3200 50  0001 C CNN
-F 3 "~" H 7400 3200 50  0001 C CNN
-	1    7400 3200
+P 8150 3650
+F 0 "R1" V 7943 3650 50  0001 C CNN
+F 1 "n.f." V 8150 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 3650 50  0001 C CNN
+F 3 "~" H 8150 3650 50  0001 C CNN
+	1    8150 3650
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R2
 U 1 1 6550B206
-P 7400 3300
-F 0 "R2" V 7193 3300 50  0001 C CNN
-F 1 "n.f." V 7400 3300 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3300 50  0001 C CNN
-F 3 "~" H 7400 3300 50  0001 C CNN
-	1    7400 3300
+P 8150 3750
+F 0 "R2" V 7943 3750 50  0001 C CNN
+F 1 "n.f." V 8150 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 3750 50  0001 C CNN
+F 3 "~" H 8150 3750 50  0001 C CNN
+	1    8150 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 6550B3B6
-P 7400 3400
-F 0 "R3" V 7193 3400 50  0001 C CNN
-F 1 "n.f." V 7400 3400 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3400 50  0001 C CNN
-F 3 "~" H 7400 3400 50  0001 C CNN
-	1    7400 3400
+P 8150 3850
+F 0 "R3" V 7943 3850 50  0001 C CNN
+F 1 "n.f." V 8150 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 3850 50  0001 C CNN
+F 3 "~" H 8150 3850 50  0001 C CNN
+	1    8150 3850
 	0    1    1    0   
 $EndComp
 Text GLabel 1950 4800 0    50   Input ~ 0
@@ -116,54 +120,54 @@ Text GLabel 2750 2800 2    50   Input ~ 0
 OUT4
 Text GLabel 2750 2900 2    50   Input ~ 0
 OUT5
-Text GLabel 7550 3800 2    50   Input ~ 0
+Text GLabel 8300 4250 2    50   Input ~ 0
 Port-3
 $Comp
 L Device:R R4
 U 1 1 65527A7A
-P 7400 3700
-F 0 "R4" V 7193 3700 50  0001 C CNN
-F 1 "n.f." V 7400 3700 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3700 50  0001 C CNN
-F 3 "~" H 7400 3700 50  0001 C CNN
-	1    7400 3700
+P 8150 4150
+F 0 "R4" V 7943 4150 50  0001 C CNN
+F 1 "n.f." V 8150 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4150 50  0001 C CNN
+F 3 "~" H 8150 4150 50  0001 C CNN
+	1    8150 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 65527C32
-P 7400 3800
-F 0 "R5" V 7193 3800 50  0001 C CNN
-F 1 "n.f." V 7400 3800 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3800 50  0001 C CNN
-F 3 "~" H 7400 3800 50  0001 C CNN
-	1    7400 3800
+P 8150 4250
+F 0 "R5" V 7943 4250 50  0001 C CNN
+F 1 "n.f." V 8150 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4250 50  0001 C CNN
+F 3 "~" H 8150 4250 50  0001 C CNN
+	1    8150 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R6
 U 1 1 65527C3C
-P 7400 3900
-F 0 "R6" V 7193 3900 50  0001 C CNN
-F 1 "n.f." V 7400 3900 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3900 50  0001 C CNN
-F 3 "~" H 7400 3900 50  0001 C CNN
-	1    7400 3900
+P 8150 4350
+F 0 "R6" V 7943 4350 50  0001 C CNN
+F 1 "n.f." V 8150 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4350 50  0001 C CNN
+F 3 "~" H 8150 4350 50  0001 C CNN
+	1    8150 4350
 	0    1    1    0   
 $EndComp
 Text GLabel 2750 3700 2    50   Input ~ 0
 OUT6
-Text GLabel 7550 3300 2    50   Input ~ 0
+Text GLabel 8300 3750 2    50   Input ~ 0
 Port-8
-Text GLabel 7250 3900 0    50   Input ~ 0
+Text GLabel 8000 4350 0    50   Input ~ 0
 Port-4
-Text GLabel 7250 3400 0    50   Input ~ 0
+Text GLabel 8000 3850 0    50   Input ~ 0
 Port-7
-Text GLabel 7250 3800 0    50   Input ~ 0
+Text GLabel 8000 4250 0    50   Input ~ 0
 Port-2
 Text GLabel 2750 3800 2    50   Input ~ 0
 OUT7
-Text GLabel 7550 3900 2    50   Input ~ 0
+Text GLabel 8300 4350 2    50   Input ~ 0
 Port-5
 Wire Wire Line
 	3850 1700 4200 1700
@@ -173,10 +177,12 @@ $Comp
 L Device:C C1
 U 1 1 6557696A
 P 3850 1850
-F 0 "C1" H 3965 1896 50  0001 L CNN
+F 0 "C1" H 3900 1950 50  0000 L CNN
 F 1 "100n" H 3900 1750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 3888 1700 50  0001 C CNN
 F 3 "~" H 3850 1850 50  0001 C CNN
+F 4 "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" H 3850 1850 50  0001 C CNN "Description"
+F 5 "C14663" H 3850 1850 50  0001 C CNN "JLCPCB"
 	1    3850 1850
 	1    0    0    -1  
 $EndComp
@@ -189,76 +195,76 @@ Connection ~ 4550 2000
 $Comp
 L power:GND #PWR0116
 U 1 1 65586E34
-P 4250 4300
-F 0 "#PWR0116" H 4250 4050 50  0001 C CNN
-F 1 "GND" V 4250 4100 50  0000 C CNN
-F 2 "" H 4250 4300 50  0001 C CNN
-F 3 "" H 4250 4300 50  0001 C CNN
-	1    4250 4300
+P 7800 2100
+F 0 "#PWR0116" H 7800 1850 50  0001 C CNN
+F 1 "GND" V 7800 1900 50  0000 C CNN
+F 2 "" H 7800 2100 50  0001 C CNN
+F 3 "" H 7800 2100 50  0001 C CNN
+	1    7800 2100
 	0    1    1    0   
 $EndComp
-Text GLabel 4250 4700 0    50   Input ~ 0
+Text GLabel 7800 2500 0    50   Input ~ 0
 DI
 $Comp
 L Device:R R9
 U 1 1 654D6995
-P 7400 3550
-F 0 "R9" V 7193 3550 50  0001 C CNN
-F 1 "n.f." V 7400 3550 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 7330 3550 50  0001 C CNN
-F 3 "~" H 7400 3550 50  0001 C CNN
-	1    7400 3550
+P 8150 4650
+F 0 "R9" V 7943 4650 50  0001 C CNN
+F 1 "n.f." V 8150 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4650 50  0001 C CNN
+F 3 "~" H 8150 4650 50  0001 C CNN
+	1    8150 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0117
 U 1 1 654D6C7A
-P 7250 3550
-F 0 "#PWR0117" H 7250 3300 50  0001 C CNN
-F 1 "GND" V 7250 3350 50  0000 C CNN
-F 2 "" H 7250 3550 50  0001 C CNN
-F 3 "" H 7250 3550 50  0001 C CNN
-	1    7250 3550
+P 8000 4650
+F 0 "#PWR0117" H 8000 4400 50  0001 C CNN
+F 1 "GND" V 8000 4450 50  0000 C CNN
+F 2 "" H 8000 4650 50  0001 C CNN
+F 3 "" H 8000 4650 50  0001 C CNN
+	1    8000 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VDD #PWR0118
 U 1 1 654D6FB6
-P 7550 3550
-F 0 "#PWR0118" H 7550 3400 50  0001 C CNN
-F 1 "VDD" V 7550 3750 50  0000 C CNN
-F 2 "" H 7550 3550 50  0001 C CNN
-F 3 "" H 7550 3550 50  0001 C CNN
-	1    7550 3550
+P 8300 4650
+F 0 "#PWR0118" H 8300 4500 50  0001 C CNN
+F 1 "VDD" V 8300 4850 50  0000 C CNN
+F 2 "" H 8300 4650 50  0001 C CNN
+F 3 "" H 8300 4650 50  0001 C CNN
+	1    8300 4650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VDD #PWR0113
 U 1 1 654E700C
-P 4250 4600
-F 0 "#PWR0113" H 4250 4450 50  0001 C CNN
-F 1 "VDD" V 4250 4800 50  0000 C CNN
-F 2 "" H 4250 4600 50  0001 C CNN
-F 3 "" H 4250 4600 50  0001 C CNN
-	1    4250 4600
+P 7800 2400
+F 0 "#PWR0113" H 7800 2250 50  0001 C CNN
+F 1 "VDD" V 7800 2600 50  0000 C CNN
+F 2 "" H 7800 2400 50  0001 C CNN
+F 3 "" H 7800 2400 50  0001 C CNN
+	1    7800 2400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4250 4200 0    50   Input ~ 0
+Text GLabel 7800 2000 0    50   Input ~ 0
 DO
 $Comp
 L power:GND #PWR0114
 U 1 1 65512EE3
-P 4950 4700
-F 0 "#PWR0114" H 4950 4450 50  0001 C CNN
-F 1 "GND" H 5100 4650 50  0000 C CNN
-F 2 "" H 4950 4700 50  0001 C CNN
-F 3 "" H 4950 4700 50  0001 C CNN
-	1    4950 4700
+P 8500 2500
+F 0 "#PWR0114" H 8500 2250 50  0001 C CNN
+F 1 "GND" H 8650 2450 50  0000 C CNN
+F 2 "" H 8500 2500 50  0001 C CNN
+F 3 "" H 8500 2500 50  0001 C CNN
+	1    8500 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4250 4400 0    50   Input ~ 0
+Text GLabel 7800 2200 0    50   Input ~ 0
 V24.cts
-Text GLabel 4250 4500 0    50   Input ~ 0
+Text GLabel 7800 2300 0    50   Input ~ 0
 V24.rts
 $Comp
 L Driver_LED:WS2811 U1
@@ -268,6 +274,8 @@ F 0 "U1" H 2200 2250 50  0000 C CNN
 F 1 "WS2811" H 2100 2150 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" H 2050 2000 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf" H 2150 2100 50  0001 C CNN
+F 4 "-40℃~+85℃ 16.5mA 20V 3 5V~24V 800kHz PWM VSON-8-EP(2x3) LED Drivers ROHS" H 2350 1850 50  0001 C CNN "Description"
+F 5 "C3034985" H 2350 1850 50  0001 C CNN "JLCPCB"
 	1    2350 1850
 	1    0    0    -1  
 $EndComp
@@ -283,6 +291,8 @@ F 0 "U2" H 2200 3200 50  0000 C CNN
 F 1 "WS2811" H 2100 3100 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" H 2050 2950 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf" H 2150 3050 50  0001 C CNN
+F 4 "-40℃~+85℃ 16.5mA 20V 3 5V~24V 800kHz PWM VSON-8-EP(2x3) LED Drivers ROHS" H 2350 2800 50  0001 C CNN "Description"
+F 5 "C3034985" H 2350 2800 50  0001 C CNN "JLCPCB"
 	1    2350 2800
 	1    0    0    -1  
 $EndComp
@@ -296,6 +306,8 @@ F 0 "U3" H 2200 4200 50  0000 C CNN
 F 1 "WS2811" H 2100 4100 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" H 2050 3950 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf" H 2150 4050 50  0001 C CNN
+F 4 "-40℃~+85℃ 16.5mA 20V 3 5V~24V 800kHz PWM VSON-8-EP(2x3) LED Drivers ROHS" H 2350 3800 50  0001 C CNN "Description"
+F 5 "C3034985" H 2350 3800 50  0001 C CNN "JLCPCB"
 	1    2350 3800
 	1    0    0    -1  
 $EndComp
@@ -311,6 +323,8 @@ F 0 "U4" H 2200 5200 50  0000 C CNN
 F 1 "WS2811" H 2100 5100 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm" H 2050 4950 50  0001 C CNN
 F 3 "https://cdn-shop.adafruit.com/datasheets/WS2811.pdf" H 2150 5050 50  0001 C CNN
+F 4 "-40℃~+85℃ 16.5mA 20V 3 5V~24V 800kHz PWM VSON-8-EP(2x3) LED Drivers ROHS" H 2350 4800 50  0001 C CNN "Description"
+F 5 "C3034985" H 2350 4800 50  0001 C CNN "JLCPCB"
 	1    2350 4800
 	1    0    0    -1  
 $EndComp
@@ -408,85 +422,87 @@ F 3 "" H 2350 5100 50  0001 C CNN
 	1    2350 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 3300 0    50   Input ~ 0
+Text GLabel 8000 3750 0    50   Input ~ 0
 Port-9
-Text GLabel 7250 3700 0    50   Input ~ 0
+Text GLabel 8000 4150 0    50   Input ~ 0
 Port-0
-Text GLabel 7250 3200 0    50   Input ~ 0
+Text GLabel 8000 3650 0    50   Input ~ 0
 Port-11
 Text GLabel 2750 1950 2    50   Input ~ 0
 OUT2
 Text GLabel 2750 3900 2    50   Input ~ 0
 OUT8
-Text GLabel 7550 3200 2    50   Input ~ 0
+Text GLabel 8300 3650 2    50   Input ~ 0
 Port-10
-Text GLabel 7550 3700 2    50   Input ~ 0
+Text GLabel 8300 4150 2    50   Input ~ 0
 Port-1
 Wire Wire Line
-	4950 4600 4950 4700
+	8500 2400 8500 2500
 NoConn ~ 1950 4900
 NoConn ~ 1950 3900
 NoConn ~ 1950 2900
 NoConn ~ 1950 1950
 Wire Wire Line
-	4950 4600 4950 4500
-Connection ~ 4950 4600
+	8500 2400 8500 2300
+Connection ~ 8500 2400
 Wire Notes Line
-	900  900  9650 850 
+	900  900  5800 900 
 Wire Notes Line
-	9650 850  9650 5400
+	5800 900  5800 5400
 Wire Notes Line
-	9650 5400 900  5400
+	5800 5400 900  5400
 Wire Notes Line
 	900  5400 900  900 
 $Comp
 L RTB_parts:59453-061110EDHLF J3
 U 1 1 654E38A3
-P 4650 4400
-F 0 "J3" H 4900 4650 50  0000 L CNN
-F 1 "59453-061110EDHLF" H 4250 3900 50  0000 L CNN
-F 2 "AMPHENOL_59453-061110EDHLF" H 4650 4400 50  0001 L BNN
-F 3 "" H 4650 4400 50  0001 L BNN
-F 4 "D" H 4650 4400 50  0001 L BNN "PARTREV"
-F 5 "Manufacturer Recommendations" H 4650 4400 50  0001 L BNN "STANDARD"
-F 6 "3.00mm" H 4650 4400 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 7 "Amphenol" H 4650 4400 50  0001 L BNN "MANUFACTURER"
-	1    4650 4400
+P 8200 2200
+F 0 "J3" H 8150 2550 50  0000 L CNN
+F 1 "FFC" H 8150 1700 50  0000 L CNN
+F 2 "AMPHENOL_59453-061110EDHLF" H 8200 2200 50  0001 L BNN
+F 3 "" H 8200 2200 50  0001 L BNN
+F 4 "-55℃~+85℃ 0.3mm 0.5mm 0.88mm 6P Bottom Contact Copper Alloy Gold Slide Lock Surface Mount, Right Angle SMD,P=0.5mm,Surface Mount，Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS" H 8200 2200 50  0001 C CNN "Description"
+F 5 "C3169668" H 8200 2200 50  0001 C CNN "JLCPCB"
+	1    8200 2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Pack04 RN1
 U 1 1 6554E35C
-P 6450 1850
-F 0 "RN1" H 6170 1804 50  0001 R CNN
-F 1 "R_Pack04" H 6170 1895 50  0001 R CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 6725 1850 50  0001 C CNN
-F 3 "~" H 6450 1850 50  0001 C CNN
-	1    6450 1850
+P 3950 3050
+F 0 "RN1" H 4300 3000 50  0000 R CNN
+F 1 "220" H 4300 3100 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 4225 3050 50  0001 C CNN
+F 3 "~" H 3950 3050 50  0001 C CNN
+F 4 "1/16W 220Ω 4 8 ±200ppm/℃ ±5% 0402x4 Resistor Networks, Arrays ROHS" H 3950 3050 50  0001 C CNN "Description"
+F 5 "C25498" H 3950 3050 50  0001 C CNN "JLCPCB"
+	1    3950 3050
 	-1   0    0    1   
 $EndComp
-Text GLabel 6450 1650 1    50   Input ~ 0
+Text GLabel 3950 2850 1    50   Input ~ 0
 OUT1
-Text GLabel 6550 1650 1    50   Input ~ 0
+Text GLabel 4050 2850 1    50   Input ~ 0
 OUT2
-NoConn ~ 6650 1650
+NoConn ~ 4150 2850
 $Comp
 L Device:R_Pack04 RN3
 U 1 1 6555776F
-P 8400 1850
-F 0 "RN3" H 8120 1804 50  0001 R CNN
-F 1 "R_Pack04" H 8120 1895 50  0001 R CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 8675 1850 50  0001 C CNN
-F 3 "~" H 8400 1850 50  0001 C CNN
-	1    8400 1850
+P 4700 4350
+F 0 "RN3" H 5050 4300 50  0000 R CNN
+F 1 "220" H 5050 4400 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 4975 4350 50  0001 C CNN
+F 3 "~" H 4700 4350 50  0001 C CNN
+F 4 "1/16W 220Ω 4 8 ±200ppm/℃ ±5% 0402x4 Resistor Networks, Arrays ROHS" H 4700 4350 50  0001 C CNN "Description"
+F 5 "C25498" H 4700 4350 50  0001 C CNN "JLCPCB"
+	1    4700 4350
 	-1   0    0    1   
 $EndComp
-NoConn ~ 8600 1650
-Text GLabel 8300 1650 1    50   Input ~ 0
+NoConn ~ 4900 4150
+Text GLabel 4600 4150 1    50   Input ~ 0
 OUT9
-Text GLabel 8400 1650 1    50   Input ~ 0
+Text GLabel 4700 4150 1    50   Input ~ 0
 OUT10
-Text GLabel 8500 1650 1    50   Input ~ 0
+Text GLabel 4800 4150 1    50   Input ~ 0
 OUT11
 Wire Wire Line
 	1850 2800 1850 3700
@@ -494,120 +510,140 @@ Wire Wire Line
 	1850 1850 1850 2700
 Wire Wire Line
 	1700 1750 1950 1750
-Text GLabel 6350 2050 3    50   Input ~ 0
+Text GLabel 3850 3250 3    50   Input ~ 0
 Port-0
-Text GLabel 6350 1650 1    50   Input ~ 0
+Text GLabel 3850 2850 1    50   Input ~ 0
 OUT0
-Text GLabel 6450 2050 3    50   Input ~ 0
+Text GLabel 3950 3250 3    50   Input ~ 0
 Port-1
-Text GLabel 6550 2050 3    50   Input ~ 0
+Text GLabel 4050 3250 3    50   Input ~ 0
 Port-2
-Text GLabel 7550 3400 2    50   Input ~ 0
+Text GLabel 8300 3850 2    50   Input ~ 0
 Port-6
-Text GLabel 8300 2050 3    50   Input ~ 0
+Text GLabel 4600 4550 3    50   Input ~ 0
 Port-9
-Text GLabel 8400 2050 3    50   Input ~ 0
+Text GLabel 4700 4550 3    50   Input ~ 0
 Port-10
-Text GLabel 8500 2050 3    50   Input ~ 0
+Text GLabel 4800 4550 3    50   Input ~ 0
 Port-11
-Text GLabel 7850 2050 3    50   Input ~ 0
-Port-8
-Text GLabel 7750 2050 3    50   Input ~ 0
-Port-7
-Text GLabel 7650 2050 3    50   Input ~ 0
-Port-6
-NoConn ~ 7950 1650
-Text GLabel 7850 1650 1    50   Input ~ 0
-OUT8
-Text GLabel 7750 1650 1    50   Input ~ 0
-OUT7
-Text GLabel 7650 1650 1    50   Input ~ 0
-OUT6
-$Comp
-L Device:R_Pack04 RN4
-U 1 1 655589A4
-P 7750 1850
-F 0 "RN4" H 7470 1804 50  0001 R CNN
-F 1 "R_Pack04" H 7470 1895 50  0001 R CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 8025 1850 50  0001 C CNN
-F 3 "~" H 7750 1850 50  0001 C CNN
-	1    7750 1850
-	-1   0    0    1   
-$EndComp
-Text GLabel 7200 2050 3    50   Input ~ 0
-Port-5
-Text GLabel 7100 2050 3    50   Input ~ 0
-Port-4
-Text GLabel 7000 2050 3    50   Input ~ 0
-Port-3
-Text GLabel 7200 1650 1    50   Input ~ 0
+Text GLabel 4750 2850 1    50   Input ~ 0
 OUT5
-Text GLabel 7100 1650 1    50   Input ~ 0
+Text GLabel 4650 2850 1    50   Input ~ 0
 OUT4
-Text GLabel 7000 1650 1    50   Input ~ 0
+Text GLabel 4550 2850 1    50   Input ~ 0
 OUT3
-NoConn ~ 7300 1650
+NoConn ~ 4850 2850
 $Comp
 L Device:R_Pack04 RN2
 U 1 1 65550AF9
-P 7100 1850
-F 0 "RN2" H 6820 1804 50  0001 R CNN
-F 1 "R_Pack04" H 6820 1895 50  0001 R CNN
-F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 7375 1850 50  0001 C CNN
-F 3 "~" H 7100 1850 50  0001 C CNN
-	1    7100 1850
+P 4650 3050
+F 0 "RN2" H 5000 3000 50  0000 R CNN
+F 1 "220" H 5000 3100 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 4925 3050 50  0001 C CNN
+F 3 "~" H 4650 3050 50  0001 C CNN
+F 4 "1/16W 220Ω 4 8 ±200ppm/℃ ±5% 0402x4 Resistor Networks, Arrays ROHS" H 4650 3050 50  0001 C CNN "Description"
+F 5 "C25498" H 4650 3050 50  0001 C CNN "JLCPCB"
+	1    4650 3050
 	-1   0    0    1   
 $EndComp
-NoConn ~ 6650 2050
-NoConn ~ 7300 2050
-NoConn ~ 7950 2050
-NoConn ~ 8600 2050
+NoConn ~ 4150 3250
+NoConn ~ 4850 3250
+NoConn ~ 4900 4550
 $Comp
 L Device:R R11
 U 1 1 655F2ED9
-P 4550 2750
-F 0 "R11" V 4343 2750 50  0001 C CNN
-F 1 "R" V 4434 2750 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4480 2750 50  0001 C CNN
-F 3 "~" H 4550 2750 50  0001 C CNN
-	1    4550 2750
+P 8150 4750
+F 0 "R11" V 8050 4750 50  0001 C CNN
+F 1 "n.f." V 8150 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4750 50  0001 C CNN
+F 3 "~" H 8150 4750 50  0001 C CNN
+	1    8150 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R12
 U 1 1 655F32E9
-P 4550 2850
-F 0 "R12" V 4343 2850 50  0001 C CNN
-F 1 "R" V 4434 2850 50  0001 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4480 2850 50  0001 C CNN
-F 3 "~" H 4550 2850 50  0001 C CNN
-	1    4550 2850
+P 8150 4850
+F 0 "R12" V 8250 4850 50  0001 C CNN
+F 1 "n.f." V 8150 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8080 4850 50  0001 C CNN
+F 3 "~" H 8150 4850 50  0001 C CNN
+	1    8150 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0111
 U 1 1 655F348F
-P 4400 2750
-F 0 "#PWR0111" H 4400 2500 50  0001 C CNN
-F 1 "GND" V 4400 2550 50  0000 C CNN
-F 2 "" H 4400 2750 50  0001 C CNN
-F 3 "" H 4400 2750 50  0001 C CNN
-	1    4400 2750
+P 8000 4750
+F 0 "#PWR0111" H 8000 4500 50  0001 C CNN
+F 1 "GND" V 8000 4550 50  0000 C CNN
+F 2 "" H 8000 4750 50  0001 C CNN
+F 3 "" H 8000 4750 50  0001 C CNN
+	1    8000 4750
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VDD #PWR0112
 U 1 1 655F3BF6
-P 4400 2850
-F 0 "#PWR0112" H 4400 2700 50  0001 C CNN
-F 1 "VDD" V 4400 3050 50  0000 C CNN
-F 2 "" H 4400 2850 50  0001 C CNN
-F 3 "" H 4400 2850 50  0001 C CNN
-	1    4400 2850
+P 8000 4850
+F 0 "#PWR0112" H 8000 4700 50  0001 C CNN
+F 1 "VDD" V 8000 5050 50  0000 C CNN
+F 2 "" H 8000 4850 50  0001 C CNN
+F 3 "" H 8000 4850 50  0001 C CNN
+	1    8000 4850
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4700 2850 2    50   Input ~ 0
+Text GLabel 8300 4850 2    50   Input ~ 0
 DI
-Text GLabel 4700 2750 2    50   Input ~ 0
+Text GLabel 8300 4750 2    50   Input ~ 0
 DO
+Text Notes 6950 3300 0    50   ~ 0
+Option 2: Solder connector
+Text Notes 6950 1600 0    50   ~ 0
+Option 1: Flat Cable Connector
+NoConn ~ 4150 4550
+Text GLabel 4550 3250 3    50   Input ~ 0
+Port-3
+Text GLabel 4650 3250 3    50   Input ~ 0
+Port-4
+Text GLabel 4750 3250 3    50   Input ~ 0
+Port-5
+$Comp
+L Device:R_Pack04 RN4
+U 1 1 655589A4
+P 3950 4350
+F 0 "RN4" H 4300 4300 50  0000 R CNN
+F 1 "220" H 4300 4400 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0402" V 4225 4350 50  0001 C CNN
+F 3 "~" H 3950 4350 50  0001 C CNN
+F 4 "1/16W 220Ω 4 8 ±200ppm/℃ ±5% 0402x4 Resistor Networks, Arrays ROHS" H 3950 4350 50  0001 C CNN "Description"
+F 5 "C25498" H 3950 4350 50  0001 C CNN "JLCPCB"
+	1    3950 4350
+	-1   0    0    1   
+$EndComp
+Text GLabel 3850 4150 1    50   Input ~ 0
+OUT6
+Text GLabel 3950 4150 1    50   Input ~ 0
+OUT7
+Text GLabel 4050 4150 1    50   Input ~ 0
+OUT8
+NoConn ~ 4150 4150
+Text GLabel 3850 4550 3    50   Input ~ 0
+Port-6
+Text GLabel 3950 4550 3    50   Input ~ 0
+Port-7
+Text GLabel 4050 4550 3    50   Input ~ 0
+Port-8
+Wire Notes Line
+	6850 900  9650 900 
+Wire Notes Line
+	9650 900  9650 5400
+Wire Notes Line
+	9650 5400 6850 5400
+Wire Notes Line
+	6850 5400 6850 900 
+Text Notes 6950 1200 0    79   ~ 16
+Bus Connector
+Wire Notes Line
+	7150 3000 9300 3000
 $EndSCHEMATC

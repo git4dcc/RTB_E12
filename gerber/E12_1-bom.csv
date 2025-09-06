@@ -1,0 +1,5 @@
+Value,Designator,Footprint,JLCPCB Part#,Description
+100n,"C1,C2,C3",Capacitor_SMD:C_0402_1005Metric,C14663,100nF 50V X7R ñ10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+FFC,J3,AMPHENOL_59453-061110EDHLF,C3169668,"-55?~+85? 0.3mm 0.5mm 0.88mm 6P Bottom Contact Copper Alloy Gold Slide Lock Surface Mount, Right Angle SMD,P=0.5mm,Surface Mount?Right Angle FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+220,"RN1,RN2,RN3,RN4",Resistor_SMD:R_Array_Concave_4x0402,C25498,"1/16W 220ê 4 8 ñ200ppm/? ñ5% 0402x4 Resistor Networks, Arrays ROHS"
+WS2811,"U1,U2,U3,U4",Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.36x1.46mm,C3034985,-40?~+85? 16.5mA 20V 3 5V~24V 800kHz PWM VSON-8-EP(2x3) LED Drivers ROHS
